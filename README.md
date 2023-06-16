@@ -1,6 +1,6 @@
 # Marlin - Frontend
 
-## Developing
+## ⚒️ Developing
 
 Once you've cloned the project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -13,7 +13,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## 🧑‍💻 Building
 
 To create a production version of your app:
 
@@ -25,7 +25,7 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-## Project Structure
+## 🏗️ Project Structure
 
 This is a top-level overview of how this project is structured.
 
@@ -56,10 +56,10 @@ This is a top-level overview of how this project is structured.
 
 - `src/`: This is the heart of the project, inside it we have the `lib/` and the `routes/` folder. All routing, utils, components, pages and etc. reside in here.
 - `static/`: Any static assets like images and logos.
-- `.env.example`: contains an example `.env` file that needs to be added to ensure that the project runs runs correctly
+- `.env.example`: contains an example `.env` file that needs to be added to ensure that the project runs runs correctly.
 - `.eslintignore`: Files and folders to ignore while linting.
 - `.eslintrc.cjs`: Configuration file for ESLint.
-- `.gitignore`: Git files and folders to ignore
+- `.gitignore`: Git files and folders to ignore.
 - `.npmrc`: contains config for customizing npm behaviour.
 - `.prettierignore`: contains glob patterns to ignore files/directories in your working directory while formatting code.
 - `.prettierrc`: Configuration file for customisizing code formatting rules for prettier.
@@ -70,3 +70,5 @@ This is a top-level overview of how this project is structured.
 - `tailwind.config.cjs`: Configuration file for tailwind css.
 - `tsconfig.json`: Configuration file containing typechecking rules for TypeScript.
 - `vite.config.ts`: Configuration file for vite.
+
+> Note: check out other readme's inside specific folders for more details.
