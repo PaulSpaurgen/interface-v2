@@ -1,6 +1,5 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import inject from '@rollup/plugin-inject';
-
 import type { UserConfig } from 'vite';
 import nodePolyfills from 'rollup-plugin-polyfill-node';
 

@@ -71,4 +71,15 @@ This is a top-level overview of how this project is structured.
 - `tsconfig.json`: Configuration file containing typechecking rules for TypeScript.
 - `vite.config.ts`: Configuration file for vite.
 
-> Note: check out other readme's inside specific folders for more details.
+> Check out other `README`'s inside specific folders for more details.
+
+## 📦 Dependencies
+
+Here are some of the main dependancies of the projects:
+
+- [ethers](https://docs.ethers.org/v5/): A complete and compact library for interacting with the Ethereum Blockchain and its ecosystem.
+- [daisyui](https://daisyui.com/docs/install/): A component library for tailwind css.
+- [svelte-awesome](https://docs.robbrazier.com/svelte-awesome/icons): Icon library for svelte.
+- [web3onboard](https://onboard.blocknative.com/docs/overview/introduction): A library for connecting and managing web3 wallets for dapps.
+
+> For a full list of dependencies, check out the `package.json` file.
