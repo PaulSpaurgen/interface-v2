@@ -13,7 +13,7 @@
 
 	const styles = {
 		buttonsGroup: 'flex gap-4 items-center justify-center w-full',
-		buttonsSubgroup: 'flex gap-4 items-center justify-center w-1/2',
+		buttonsSubgroup: 'flex gap-4 items-center justify-between w-full',
 		buttonLarge: 'h-14 text-base font-semibold'
 	};
 </script>
@@ -25,8 +25,10 @@
 	{#if $connected}
 		<div class={styles.buttonsGroup}>
 			{#if $receiverRewardsStore.rewardBalance.gt(BIG_NUMBER_ZERO)}
-				<div class={styles.buttonsSubgroup}>
+				<div class="w-1/2">
 					<UpdateTicketRewards />
+				</div>
+				<div class="w-1/2">
 					<AddRewardsBalance />
 				</div>
 			{:else}

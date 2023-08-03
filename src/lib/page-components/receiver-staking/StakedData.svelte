@@ -18,13 +18,13 @@
 	onDestroy(unsubscribeReceiverStakedStore);
 
 	const styles = {
-		wrapper: 'w-full flex flex-col items-center justify-center pt-4 pb-8',
-		cardWrapper: 'w-full flex px-2 mb-2'
+		wrapper: 'w-full flex flex-col items-center justify-center my-8',
+		cardWrapper: 'w-full flex px-2'
 	};
 </script>
 
 <div class={styles.wrapper}>
-	<div class={`${styles.cardWrapper}`}>
+	<div class={`${styles.cardWrapper} mb-2`}>
 		<DataRowCard
 			data={{
 				title: 'Staked',
@@ -48,6 +48,6 @@
 			<InQueuedPopOver slot="icon" />
 		</DataRowCard>
 	</div>
-	<Divider margin="mt-1 mb-6" />
+	<Divider margin="my-6" />
 	<SignerAddress />
 </div>

@@ -12,7 +12,7 @@
 
 	const styles = {
 		wrapper: 'w-full flex flex-col items-center justify-center py-8',
-		cardWrapper: 'w-full flex px-2 mb-2'
+		cardWrapper: 'w-full flex px-2'
 	};
 
 	function getRewardTimeEnd(
@@ -40,7 +40,7 @@
 </script>
 
 <div class={`${styles.wrapper}`}>
-	<div class={`${styles.cardWrapper}`}>
+	<div class={`${styles.cardWrapper} mb-2`}>
 		<DataRowCard
 			data={{
 				title: 'Reward per Ticket',
@@ -54,7 +54,7 @@
 			/>
 		</DataRowCard>
 	</div>
-	<div class={styles.cardWrapper}>
+	<div class={`${styles.cardWrapper} mb-2`}>
 		<DataRowCard
 			data={{
 				title: 'Rewards Balance',
