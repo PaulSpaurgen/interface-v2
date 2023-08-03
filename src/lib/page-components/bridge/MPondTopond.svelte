@@ -114,7 +114,7 @@
 		inputAmount && inputAmount.gt(0) && unrequestedMPondBalance?.gte(inputAmount);
 </script>
 
-<div class="my-2 mx-2">
+<div class="my-8 mx-2">
 	<AmountInputWithMaxButton
 		title="From"
 		bind:inputAmountString
@@ -131,7 +131,7 @@
 		errorMessage={inValidMessage}
 	/>
 	<ErrorTextCard showError={!!mPondDisabledText} errorMessage={mPondDisabledText} />
-	<Divider margin="mt-2 mb-3" />
+	<Divider margin="my-6" />
 	<AmountInputWithMaxButton
 		title="To"
 		inputCardVariant={'none'}
